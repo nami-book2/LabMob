@@ -1,9 +1,10 @@
 export default {
-    black: '#000000',
+    black: '#455A64',
     white: '#ffffff',
-    green: '#455A64',
-    greenLight: '#CFD8DC',
-    purple: '#7E57C2',
+    green: '#2AEA54',
+    greenLight: '#CFD8DC26A5E1',
+    purple: '#F80404',
+    purpleLight: '#B39DDB',
     orange: '#FFB74D',
     orangeLight: '#FFE9CA'
   }
