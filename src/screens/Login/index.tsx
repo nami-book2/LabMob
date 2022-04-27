@@ -7,7 +7,7 @@ import {
   ImageBackground,
 } from "react-native";
 import { MaterialIcons, Entypo } from "@expo/vector-icons";
-import Button from "../../components/CardSocial/Button";
+import Button from "../../components/Button";
 import styles from "./styles";
 import { LoginTypes } from "../../types/Screen.types";
 
@@ -46,7 +46,11 @@ export default function Login({ navigation }: LoginTypes) {
             />
           </View>
           <Button title="Login" type="green" onPress={handleSignIn} />
-          <Button title="Cadastre-se" type="purple" onPress={handleCadastrar} />
+          <Button
+            title="Cadastre-se"
+            type="purple"
+            onPress={handleCadastrar}
+          />
         </KeyboardAvoidingView>
       </ImageBackground>
     </View>
