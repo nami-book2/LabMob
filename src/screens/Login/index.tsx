@@ -7,7 +7,7 @@ import {
   ImageBackground,
 } from "react-native";
 import { MaterialIcons, Entypo } from "@expo/vector-icons";
-import Button from "../../components/Button";
+import Button from "../../components/CardSocial/Button";
 import styles from "./styles";
 import { LoginTypes } from "../../types/Screen.types";
 
