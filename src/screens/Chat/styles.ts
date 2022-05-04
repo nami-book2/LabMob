@@ -9,12 +9,19 @@ const styles = StyleSheet.create({
   },
   rowSearch: {
     flexDirection: 'row',
-    backgroundColor: colors.greenLight,
     borderRadius: 10,
     margin: 10,
     alignItems: 'center',
     width: "80%",
     height: 45,
+  },
+  title: {
+    fontFamily:'Kodchasan',
+    fontSize: 30,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    color: colors.black,
+    marginBottom: 20,
   },
   icon: {
     fontSize: 24,

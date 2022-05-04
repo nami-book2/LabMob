@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   title: {
-    
+    fontFamily:'Kodchasan',
     fontSize: 30,
     fontWeight: 'bold',
     textAlign: 'center',

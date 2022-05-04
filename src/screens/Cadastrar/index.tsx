@@ -50,7 +50,7 @@ export default function Cadastrar({ navigation }: LoginTypes) {
             />
           </View>
           <Button title="Salvar" type="purple" onPress={handleSignIn} />
-          <Button title="Voltar" type="green" onPress={handleLogin} />
+          <Button title="Voltar" type="orange" onPress={handleLogin} />
         </KeyboardAvoidingView>
       </ImageBackground>
     </View>

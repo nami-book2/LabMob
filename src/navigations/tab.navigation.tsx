@@ -2,6 +2,7 @@ import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { ChatScreen, PerfilScreen } from "../screens";
 import { Ionicons } from "@expo/vector-icons";
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import colors from "../styles/colors";
 
 const Tab = createBottomTabNavigator();
@@ -27,14 +28,14 @@ export default function TabNavigation() {
         }}
       />
       <Tab.Screen
-        name="Mensagem"
+        name="Meu treino"
         component={ChatScreen}
         options={{
           tabBarIcon: () => (
-            <Ionicons name="chatbubbles" size={24} color={colors.white} />
+            <MaterialCommunityIcons name="clock-time-nine-outline" size={24} color="black" />
           ),
         }}
-      />
+      />0
     </Tab.Navigator>
   );
 }

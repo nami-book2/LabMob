@@ -8,10 +8,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   title: {
+    fontfamily: 'Kodchasan sans-serif',
     fontSize: 30,
     fontWeight: "bold",
     textAlign: "center",
-    color: colors.green,
+    color: colors.black,
     marginBottom: 20,
   },
   formRow: {
@@ -34,7 +35,7 @@ const styles = StyleSheet.create({
   },
   icon: {
     fontSize: 24,
-    color: colors.green,
+    color: colors.purple1,
     padding: 10
   }
 })

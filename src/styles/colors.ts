@@ -4,7 +4,8 @@ export default {
     green: '#2AEA54',
     greenLight: '#CFD8DC',
     purple: '#F80404',
+    purple1: '#21745B',
     purpleLight: '#B39DDB',
-    orange: '#FFB74D',
-    orangeLight: '#FFE9CA'
+    orange: '#2723CA',
+    orangeLight: '#0C0B40'
   }
