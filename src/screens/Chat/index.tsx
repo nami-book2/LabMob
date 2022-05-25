@@ -3,7 +3,7 @@ import {
   FlatList,
   ImageBackground,
   SafeAreaView,
-  TextInput,
+  Text,
   View,
 } from "react-native";
 import data from "../../services/data";
@@ -25,7 +25,7 @@ export default function Chat() {
         <FlatList
           data={data}
           renderItem={renderItem}
-          keyExtractor={(item) => String(item.id)}
+          keyExtractor={(item) => String(item)}
         />
       </SafeAreaView>
     </ImageBackground>

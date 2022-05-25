@@ -1,6 +1,6 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { ChatScreen, PerfilScreen } from "../screens";
+import { ChatScreen, PerfilScreen, MapScreen } from "../screens";
 import { Ionicons } from "@expo/vector-icons";
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import colors from "../styles/colors";
@@ -35,7 +35,16 @@ export default function TabNavigation() {
             <MaterialCommunityIcons name="clock-time-nine-outline" size={24} color="black" />
           ),
         }}
-      />0
+      />
+      <Tab.Screen
+        name="Mapa"
+        component={MapScreen}
+        options={{
+          tabBarIcon: () => (
+            <Ionicons name="map" size={24} color={colors.white} />
+          ),
+        }}
+      />
     </Tab.Navigator>
   );
 }

@@ -16,7 +16,6 @@ const styles = StyleSheet.create({
     height: 45,
   },
   title: {
-    fontFamily:'Kodchasan',
     fontSize: 30,
     fontWeight: 'bold',
     textAlign: 'center',
