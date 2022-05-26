@@ -8,7 +8,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   title: {
-    fontFamily:'Kodchasan',
     fontSize: 30,
     fontWeight: 'bold',
     textAlign: 'center',
@@ -25,7 +24,7 @@ const styles = StyleSheet.create({
   },
   icon: {
     fontSize: 24,
-    color: colors.purple,
+    color: colors.Aqua,
     padding: 10
   },
   input: {

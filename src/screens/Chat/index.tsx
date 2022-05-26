@@ -22,7 +22,7 @@ export default function Chat() {
           
         <Text style={styles.title}> Meu Treino</Text>
         </View>
-        <FlatList
+        <FlatList style={styles.rowSearch}
           data={data}
           renderItem={renderItem}
           keyExtractor={(item) => String(item)}

@@ -8,12 +8,12 @@ const styles = StyleSheet.create({
     margin: 10
   },
   buttonSecondary: {
-    backgroundColor: colors.purple,
+    backgroundColor: colors.DeepPink,
     borderRadius: 5,
     margin: 10
   },
   buttonThird: {
-    backgroundColor: colors.purpleLight,
+    backgroundColor: colors.DeepPinkLight,
     borderRadius: 5,
     margin: 10
   },

@@ -4,23 +4,23 @@ import colors from "../../styles/colors";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: 10,
+    marginTop: 15,
     alignItems: 'center',
   },
   rowSearch: {
     flexDirection: 'row',
-    borderRadius: 10,
+    borderRadius: 5,
     margin: 10,
     alignItems: 'center',
-    width: "80%",
-    height: 45,
+    width: "95%",
+    height: 65,
   },
   title: {
     fontSize: 30,
     fontWeight: 'bold',
     textAlign: 'center',
     color: colors.black,
-    marginBottom: 20,
+    marginBottom: 10,
   },
   icon: {
     fontSize: 24,

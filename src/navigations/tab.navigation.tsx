@@ -12,9 +12,9 @@ export default function TabNavigation() {
     <Tab.Navigator
       screenOptions={{
         headerShown: false,
-        tabBarActiveBackgroundColor: colors.purple,
+        tabBarActiveBackgroundColor: colors.DeepPink,
         tabBarActiveTintColor: colors.white,
-        tabBarInactiveBackgroundColor: colors.purpleLight,
+        tabBarInactiveBackgroundColor: colors.DeepPinkLight,
         tabBarInactiveTintColor: colors.white,
       }}
     >

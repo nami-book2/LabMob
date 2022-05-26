@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
   },
   icon: {
     fontSize: 24,
-    color: colors.purple1,
+    color: colors.Aqua,
     padding: 10
   }
 })

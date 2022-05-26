@@ -17,19 +17,19 @@ export default function Perfil() {
         <Text style={styles.title}>Nicole Mendonça</Text>
         <CardSocial>
           <>
-          <MaterialCommunityIcons name="weight-kilogram" size={24} color="black" />
+          <MaterialCommunityIcons name="weight-kilogram" color="black" />
             <TextInput placeholder="Peso:" />
           </>
         </CardSocial>
         <CardSocial>
           <>
-          <MaterialCommunityIcons name="human-male-height-variant" size={24} color="black" />
+          <MaterialCommunityIcons name="human-male-height-variant" color="black" />
             <TextInput placeholder="Altura:" />
           </>
         </CardSocial>
         <CardSocial>
           <>
-          <Fontisto name="date" size={24} color="black" />
+          <Fontisto name="date" color="black" />
             <TextInput placeholder="Data de nascimento:" />
           </>
         </CardSocial>
@@ -40,10 +40,10 @@ export default function Perfil() {
         />
         <Button
           title="Alterar Senha"
-          type="purple"
+          type="red"
           onPress={() => console.log("Alterar Dados")}
         />
-        <Button title="Voltar" type="purple" onPress={() => console.log("Voltar")} />
+        <Button title="Voltar" type="DeepPink" onPress={() => console.log("Voltar")} />
       </ImageBackground>
     </View>
   );

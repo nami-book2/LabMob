@@ -45,10 +45,10 @@ export default function Login({ navigation }: LoginTypes) {
               autoCapitalize="none"
             />
           </View>
-          <Button title="Login" type="orange" onPress={handleSignIn} />
+          <Button title="Login" type="BlueViolet" onPress={handleSignIn} />
           <Button
             title="Cadastre-se"
-            type="purple"
+            type="DeepPink"
             onPress={handleCadastrar}
           />
         </KeyboardAvoidingView>

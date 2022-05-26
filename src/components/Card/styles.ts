@@ -4,7 +4,7 @@ import colors from "../../styles/colors";
 const styles = StyleSheet.create({
   card: {
     textDecorationColor: colors.white,
-    backgroundColor: colors.orange,
+    backgroundColor: colors.greenLight,
     borderRadius: 5,
     margin: 10,
     alignItems: "center",
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   topic: {
-    backgroundColor: colors.orangeLight,
+    backgroundColor: colors.green,
     margin: 5,
     borderRadius: 5,
     padding: 5

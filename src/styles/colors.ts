@@ -1,11 +1,12 @@
 export default {
     black: '#455A64',
     white: '#ffffff',
-    green: '#2AEA54',
-    greenLight: '#CFD8DC',
-    purple: '#F80404',
-    purple1: '#21745B',
-    purpleLight: '#B39DDB',
-    orange: '#2723CA',
-    orangeLight: '#0C0B40'
+    red:'#FF0000',
+    green: '#DC143C',
+    greenLight: '#00FF7F',
+    DeepPink: '#FF1493',
+    Aqua: '#00BFFF',
+    DeepPinkLight: '#0000FF',
+    BlueViolet: '#8A2BE2',
+    BlueVioletLight: '#0C0B40'
   }
