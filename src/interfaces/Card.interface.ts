@@ -1,4 +1,4 @@
-export interface CardSocialProps {
+export interface CardSocialComp {
   children: JSX.Element
 }
 
