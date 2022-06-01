@@ -19,6 +19,14 @@ const styles = StyleSheet.create({
     fontSize: 24,
     padding: 5
   },
+  link: {
+    fontSize: 20,
+  },
+    img: {
+    width: 80,
+    height: 80,
+    borderRadius: 40,
+  },
   input: {
     fontSize: 20
   }
