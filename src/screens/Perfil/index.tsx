@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, ImageBackground, Image, TextInput } from "react-native";
-import CardSocial from "../../components/Card.Social";
+import CardSocial from "../../components/CardSocial/";
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Fontisto } from '@expo/vector-icons';
 import styles from "./styles";

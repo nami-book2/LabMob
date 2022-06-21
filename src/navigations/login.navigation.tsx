@@ -2,7 +2,7 @@ import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import { LoginScreen, CadastrarScreen } from "../screens";
 import { LoginStackParamList } from "../types/Screen.types";
-import TabNavigation from "./tab.navigation.tsx";
+import TabNavigation from "./tab.navigation";
 
 const Stack = createStackNavigator<LoginStackParamList>();
 

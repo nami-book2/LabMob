@@ -77,6 +77,7 @@ export default function Login({ navigation }: LoginTypes) {
               placeholder="Senha"
               secureTextEntry={true}
               autoCapitalize="none"
+              onChangeText={(i) => handleChange({ password: i })}
             />
           </View>
           <ButtonComp title="Login" type="BlueViolet" onPress={handleSignIn} />

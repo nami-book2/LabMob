@@ -40,10 +40,15 @@ const AuthProvider: React.FC = ({ children }) => {
     await AsyncStorage.setItem("access_token", access_token);
     await AsyncStorage.setItem("user", JSON.stringify(user));
  }, []);
-
+ 
+ const removeLocalStorage = async () => {
+  await AsyncStorage.removeItem("access_token");
+  await AsyncStorage.removeItem("user");
+  };
+ 
  const signOut = useCallback(async () => {
     setAuth({} as IAuthState);
-    removeLocalStorange();
+    removeLocalStorage();
     delete api.defaults.headers.common.authorization;
     await apiUser.logout();
  }, []);

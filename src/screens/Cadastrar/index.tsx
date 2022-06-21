@@ -82,6 +82,7 @@ export default function Cadastrar({ navigation }: LoginTypes) {
                 placeholder="E-mail"
                 keyboardType="email-address"
                 autoCapitalize="none"
+                onChangeText={(i) => handleChange({ email: i })}
               />
             </View>
             <View style={styles.formRow}>
@@ -91,6 +92,7 @@ export default function Cadastrar({ navigation }: LoginTypes) {
                 placeholder="Senha"
                 secureTextEntry={true}
                 autoCapitalize="none"
+                onChangeText={(i) => handleChange({ password: i })}
               />
             </View>
             <ButtonComp title="Salvar" type="BlueViolet" onPress={handleRegister} />

@@ -6,7 +6,7 @@ import {
   Text,
   View,
 } from "react-native";
-import data from "../../services/data";
+import data from "../../services/data_antigo";
 import Card from "../../components/Card";
 import styles from "./styles";
 
@@ -25,7 +25,7 @@ export default function Chat() {
         <FlatList style={styles.rowSearch}
           data={data}
           renderItem={renderItem}
-          keyExtractor={(item) => String(item)}
+          keyExtractor={(item, key) => String(key)}
         />
       </SafeAreaView>
     </ImageBackground>
