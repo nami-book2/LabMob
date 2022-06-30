@@ -62,7 +62,8 @@ export default function Cadastrar({ navigation }: LoginTypes) {
       ) : (
         <View style={styles.container}>
          <ImageBackground
-           source={require("../../assets/fundo.jpg")}
+           source={require("../../assets/fundobranco.jpg")}
+           
            style={styles.container}
          >
           <KeyboardAvoidingView>
