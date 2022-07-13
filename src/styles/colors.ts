@@ -8,5 +8,6 @@ export default {
     Aqua: '#00BFFF',
     DeepPinkLight: '#0000FF',
     BlueViolet: '#8A2BE2',
-    BlueVioletLight: '#0C0B40'
+    BlueVioletLight: '#0C0B40',
+    qrCode:'#ffffff'
   }
