@@ -1,6 +1,6 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { ChatScreen, PerfilScreen, MapScreen, SairScreen, QrCodeScreen } from "../screens";
+import { ChatScreen, PerfilScreen, MapScreen, SairScreen, QrCodeScreen, CameraScreen } from "../screens";
 import { Ionicons } from "@expo/vector-icons";
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import colors from "../styles/colors";
@@ -61,6 +61,15 @@ export default function TabNavigation() {
           tabBarLabel: "QrCode",
           tabBarIcon: () => (
             <MaterialCommunityIcons name="qrcode-scan" size={24} color={colors.white} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Camera"
+        component={CameraScreen}
+        options={{
+          tabBarIcon: () => (
+            <Ionicons name="camera" size={24} color={colors.white} />
           ),
         }}
       />
