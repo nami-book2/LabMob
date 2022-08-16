@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
   buttonFlip:{
     position:'absolute',
     top:"5%",
-    right:"5%",
+    left:"5%",
   },
   textFlip:{
     fontSize: 18,
@@ -79,9 +79,10 @@ const styles = StyleSheet.create({
   viewTakePicture:{
     position:'absolute',
     flex:1,
+    bottom:0,
     flexDirection:"row",
     width: "100%",
-    height: 20,
+    padding: 20,
     justifyContent: "space-between",
   },
   positionTakePicture:{
@@ -90,10 +91,10 @@ const styles = StyleSheet.create({
     alignItems:"center",
   },
   buttonTakePicture:{
-    width: 130,
-    height: 40,
+    width: 70,
+    height: 70,
     bottom:0,
-    borderRadius:4,
+    borderRadius:80,
     backgroundColor:colors.white,
   },
 });
