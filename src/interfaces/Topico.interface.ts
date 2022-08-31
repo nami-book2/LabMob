@@ -1,6 +1,6 @@
 export interface ITopico {
     status: string,
-    message: string,
+    messagem: string,
     data: {
         id: number
         topico: string

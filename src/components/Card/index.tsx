@@ -1,15 +1,17 @@
 import React from "react";
-import { Text, View } from "react-native";
-import { CardProps } from "../../interfaces/Card.interface";
+import { Text, View, Image } from "react-native";
+import { IMensagemState } from "../../interfaces/Mensagem.Interface";
 import styles from "./styles";
+import { format } from "date-fns";
 
-export default function Card({ data }: CardProps) {
+export default function Card({ data }: IMensagemState) {
   return (
     <View style={styles.card}>
       <Text>
-        {data.nome} - {data.data}
+        {data.user.nome} - {" "}
+        {format(new Date(data.Created_at), "dd/MM/yyyy HH:mm:ss")}
       </Text>
-      <View>
+      <View style={styles.card}>
         <Text>Treino {data.titulo}</Text>
         <Text>Repetições {data.mensagem}</Text>
         <View style={styles.topicos}>

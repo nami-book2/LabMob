@@ -24,7 +24,24 @@ const styles = StyleSheet.create({
   icon: {
     fontSize: 24,
     padding: 5
-  }
+  },
+  button: {
+    position:"absolute",
+    bottom:0,
+    rigth:0,
+    backgroundColor:colors.BlueViolet,
+    width:50,
+    height:50,
+    borderRadius:50,
+    diplay:"flex",
+    justifyContent:"center",
+    alignItems:"center",
+  },
+  buttonText: {
+    color: colors.white,
+    fontSize:28,
+    fontWeight:"bold",
+  },
 })
 
 export default styles;

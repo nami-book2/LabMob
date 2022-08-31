@@ -4,6 +4,7 @@ import { ChatScreen, PerfilScreen, MapScreen, SairScreen, QrCodeScreen, CameraSc
 import { Ionicons } from "@expo/vector-icons";
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import colors from "../styles/colors";
+import ChatNavigation from "./chat.navigation"
 
 const Tab = createBottomTabNavigator();
 
@@ -80,6 +81,16 @@ export default function TabNavigation() {
           tabBarLabel: "Arquivos",
           tabBarIcon: () => (
             <MaterialCommunityIcons name="file-account" size={24} color={colors.white} />
+          ),
+        }}
+      />
+       <Tab.Screen
+        name="ChatNavigation"
+        component={ChatNavigation}
+        options={{
+          title:"Chat",
+          tabBarIcon: () => (
+            <Ionicons name="chatbubbles" size={24} color={colors.white} />
           ),
         }}
       />
