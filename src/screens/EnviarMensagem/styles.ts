@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
   },
   viewTakePicture: {
     position: "absolute",
-    buttom: 0,
+    button: 0,
     flexDirection: "row",
     flex: 1,
     width: "100%",
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
   buttonTakePicture: {
     width: 70,
     height: 70,
-    buttom: 0,
+    button: 0,
     borderRadius: 50,
     backgroundColor: colors.white,
   },

@@ -12,7 +12,7 @@ const style = StyleSheet.create({
     },
     textClose: {
         color:colors.white,
-        fonteSize: 20,
+        fontSize: 20,
     },
     collumPreviewVisible: {
         flex: 1,
@@ -32,7 +32,7 @@ const style = StyleSheet.create({
     },
     textPreviewVisible: {
         color: colors.white,
-        fontsize: 20,
+        fontSize: 20,
     },
     buttonStartOver: {
         width: 130,
@@ -56,4 +56,4 @@ const style = StyleSheet.create({
     },
 });
 
-export default styles
+export default style
