@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "nicole",
+    "slug": "nicole",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.namibook.nicole"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
